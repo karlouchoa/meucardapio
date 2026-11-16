@@ -15,6 +15,10 @@ Protótipo mobile-first de um aplicativo de delivery de comida, desenvolvido par
 
 Abra o arquivo [index.html](./index.html) diretamente no navegador. Não é necessário servidor, banco de dados ou instalação de dependências.
 
+## Documentação
+
+- [Aplicação do método ASD](./ASD.md)
+
 ## Tecnologias
 
 - HTML
@@ -31,6 +35,7 @@ Este é um protótipo acadêmico. Nenhum pagamento real é processado e os dados
 
 - Comece mostrando o destaque visual do restaurante recomendado.
 - Explique que a interface foi pensada primeiro para celular.
+- Apresente as três alternativas de design e explique a escolha da ideia 3.
 - Selecione um restaurante e adicione dois produtos.
 - Mostre o resumo do pedido no checkout.
 - Finalize usando dados fictícios e apresente a confirmação.
