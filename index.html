@@ -196,6 +196,9 @@
       font-size: 3.4rem;
     }
 
+    .food-photo { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .food-fallback[hidden] { display: none; }
+
     .restaurant-image { width: 96px; height: 96px; border-radius: 14px; }
     .product-image { width: 86px; height: 86px; flex: 0 0 86px; border-radius: 14px; font-size: 2.7rem; }
 
@@ -465,14 +468,15 @@
         time: "20–35 min",
         fee: "R$ 5,00",
         emoji: "🍔",
+        image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=900&q=82",
         menu: {
           "Mais pedidos": [
-            { id: "burger-1", name: "Clássico da Casa", description: "Pão brioche, hambúrguer, queijo e molho especial.", price: 24.9, emoji: "🍔" },
-            { id: "burger-2", name: "Duplo Cheddar", description: "Dois hambúrgueres, cheddar cremoso e cebola caramelizada.", price: 31.9, emoji: "🍔" }
+            { id: "burger-1", name: "Clássico da Casa", description: "Pão brioche, hambúrguer, queijo e molho especial.", price: 24.9, emoji: "🍔", image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=900&q=82" },
+            { id: "burger-2", name: "Duplo Cheddar", description: "Dois hambúrgueres, cheddar cremoso e cebola caramelizada.", price: 31.9, emoji: "🍔", image: "https://images.unsplash.com/photo-1713330801172-03f8d1c0dde7?auto=format&fit=crop&w=900&q=82" }
           ],
           "Acompanhamentos": [
-            { id: "burger-3", name: "Batata crocante", description: "Porção individual com molho da casa.", price: 12.5, emoji: "🍟" },
-            { id: "burger-4", name: "Milk-shake de chocolate", description: "Cremoso, gelado e finalizado com chantilly.", price: 14.9, emoji: "🥤" }
+            { id: "burger-3", name: "Batata crocante", description: "Porção individual com molho da casa.", price: 12.5, emoji: "🍟", image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=82" },
+            { id: "burger-4", name: "Milk-shake de chocolate", description: "Cremoso, gelado e finalizado com chantilly.", price: 14.9, emoji: "🥤", image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=82" }
           ]
         }
       },
@@ -485,14 +489,15 @@
         time: "25–40 min",
         fee: "R$ 6,00",
         emoji: "🍕",
+        image: "https://images.unsplash.com/photo-1732827097511-4fb032f7bac4?auto=format&fit=crop&w=900&q=82",
         menu: {
           "Mais pedidos": [
-            { id: "pizza-1", name: "Calabresa Especial", description: "Calabresa, cebola roxa, muçarela e orégano.", price: 39.9, emoji: "🍕" },
-            { id: "pizza-2", name: "Frango com Catupiry", description: "Frango desfiado, catupiry e milho fresco.", price: 42.9, emoji: "🍕" }
+            { id: "pizza-1", name: "Calabresa Especial", description: "Calabresa, cebola roxa, muçarela e orégano.", price: 39.9, emoji: "🍕", image: "https://images.unsplash.com/photo-1732827097511-4fb032f7bac4?auto=format&fit=crop&w=900&q=82" },
+            { id: "pizza-2", name: "Frango com Catupiry", description: "Frango desfiado, catupiry e milho fresco.", price: 42.9, emoji: "🍕", image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=82" }
           ],
           "Bebidas": [
-            { id: "pizza-3", name: "Refrigerante lata", description: "Lata de 350 ml. Escolha o sabor.", price: 6.5, emoji: "🥤" },
-            { id: "pizza-4", name: "Suco natural", description: "Suco de laranja feito na hora.", price: 9.9, emoji: "🧃" }
+            { id: "pizza-3", name: "Refrigerante lata", description: "Lata de 350 ml. Escolha o sabor.", price: 6.5, emoji: "🥤", image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=900&q=82" },
+            { id: "pizza-4", name: "Suco natural", description: "Suco de laranja feito na hora.", price: 9.9, emoji: "🧃", image: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=82" }
           ]
         }
       },
@@ -505,14 +510,15 @@
         time: "15–30 min",
         fee: "R$ 4,00",
         emoji: "🥗",
+        image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=82",
         menu: {
           "Pratos do dia": [
-            { id: "healthy-1", name: "Bowl de frango", description: "Frango grelhado, arroz integral e legumes.", price: 27.9, emoji: "🥗" },
-            { id: "healthy-2", name: "Bowl vegetariano", description: "Grão-de-bico, quinoa, avocado e folhas frescas.", price: 25.9, emoji: "🥗" }
+            { id: "healthy-1", name: "Bowl de frango", description: "Frango grelhado, arroz integral e legumes.", price: 27.9, emoji: "🥗", image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=82" },
+            { id: "healthy-2", name: "Bowl vegetariano", description: "Grão-de-bico, quinoa, avocado e folhas frescas.", price: 25.9, emoji: "🥗", image: "https://images.unsplash.com/photo-1661257711676-79a0fc533569?auto=format&fit=crop&w=900&q=82" }
           ],
           "Complementos": [
-            { id: "healthy-3", name: "Suco verde", description: "Abacaxi, couve, hortelã e limão.", price: 10.5, emoji: "🥤" },
-            { id: "healthy-4", name: "Salada de frutas", description: "Frutas da estação com mel.", price: 11.9, emoji: "🍓" }
+            { id: "healthy-3", name: "Suco verde", description: "Abacaxi, couve, hortelã e limão.", price: 10.5, emoji: "🥤", image: "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=900&q=82" },
+            { id: "healthy-4", name: "Salada de frutas", description: "Frutas da estação com mel.", price: 11.9, emoji: "🍓", image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=900&q=82" }
           ]
         }
       }
@@ -541,7 +547,10 @@
 
       list.innerHTML = filtered.map(restaurant => `
         <article class="restaurant-card">
-          <div class="restaurant-image" aria-hidden="true">${restaurant.emoji}</div>
+          <div class="restaurant-image">
+            <img class="food-photo" src="${restaurant.image}" alt="${restaurant.name}" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+            <span class="food-fallback" aria-hidden="true" hidden>${restaurant.emoji}</span>
+          </div>
           <div class="restaurant-meta">
             <div class="restaurant-title">
               <h3>${restaurant.name}</h3>
@@ -560,7 +569,7 @@
       selectedRestaurant = getRestaurant(restaurantId);
       cart = [];
       document.getElementById("menu-title").textContent = selectedRestaurant.name;
-      document.getElementById("menu-restaurant-image").textContent = selectedRestaurant.emoji;
+      document.getElementById("menu-restaurant-image").innerHTML = `<img class="food-photo" src="${selectedRestaurant.image}" alt="${selectedRestaurant.name}" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" /><span class="food-fallback" aria-hidden="true" hidden>${selectedRestaurant.emoji}</span>`;
       document.getElementById("menu-restaurant-details").textContent = `${selectedRestaurant.category} · ⭐ ${selectedRestaurant.rating} · 🛵 ${selectedRestaurant.time}`;
       renderMenu();
       updateCartBar();
@@ -575,7 +584,10 @@
           <div class="menu-grid">
             ${products.map(product => `
               <article class="product-card">
-                <div class="product-image" aria-hidden="true">${product.emoji}</div>
+                <div class="product-image">
+                  <img class="food-photo" src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                  <span class="food-fallback" aria-hidden="true" hidden>${product.emoji}</span>
+                </div>
                 <div class="product-meta">
                   <h3>${product.name}</h3>
                   <p class="product-description">${product.description}</p>
